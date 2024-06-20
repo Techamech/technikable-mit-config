@@ -32,6 +32,16 @@
         };
     };
 
+&caps_word {
+    continue-list = <UNDERSCORE>;
+};
+
+/ {
+    keymap {
+        ...
+    };
+};
+
     keymap {
         compatible = "zmk,keymap";
 
