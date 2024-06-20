@@ -17,9 +17,6 @@
 
 &lt { quick_tap_ms = <200>; };
 
-&mt {
-};
-
 / {
     chosen { zmk,matrix_transform = &mit_transform; };
 
