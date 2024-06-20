@@ -18,11 +18,11 @@
 &lt { quick_tap_ms = <200>; };
 
 / {
-    chosen { zmk,matrix_transform = &mit_transform; };
+    chosen { zmk,matrix_transform = &mit_transform; 
+    };
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
-
         tri_layer {
             if-layers = <NAV_L NUM_L>;
             then-layer = <SYM_L>;
