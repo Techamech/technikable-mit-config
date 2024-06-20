@@ -38,7 +38,7 @@
 
 / {
     keymap {
-        ESC
+        compatible = "zmk,keymap";
     };
 
     keymap {
