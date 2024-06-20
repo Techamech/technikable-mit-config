@@ -37,7 +37,7 @@
 };
 
 / {
-    keymap {
+    keymap {UNDERSCORE
         
     };
 };
