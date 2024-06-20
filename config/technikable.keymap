@@ -32,16 +32,6 @@
         };
     };
 
-&caps_word {
-    continue-list = <UNDERSCORE MINUS>;
-};
-
-/ {
-    keymap {UNDERSCORE
-        
-    };
-};
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -49,7 +39,7 @@
             label = "Base";
             bindings = <
 &kp TAB    &kp Q  &kp W      &kp E     &kp R      &kp T        &kp Y      &kp U      &kp I      &kp O    &kp P          &mt DEL BACKSPACE
-&kp ESC    &kp A  &kp S      &kp D     &kp F      &kp G        &kp H      &kp J      &kp K      &kp L    &mt PIPE SEMI  &kp KP_ENTER
+&mt ESC &caps_word     &kp A  &kp S      &kp D     &kp F      &kp G        &kp H      &kp J      &kp K      &kp L    &mt PIPE SEMI  &kp KP_ENTER
 &kp LSHFT  &kp Z  &kp X      &kp C     &kp V      &kp B        &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH       &mt RSHFT SINGLE_QUOTE
                   &mt LCTRL LPAR       &mt LALT RPAR  &sl NAV_L  &kp SPACE    &sl NUM_L  &kp RGUI  &kp RCTRL
             >;
